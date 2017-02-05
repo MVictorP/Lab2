@@ -1,0 +1,14 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.matthew.myapplication.MainActivity">
+    <item
+        android:id="@+id/action_about"
+        android:title="@string/app_about"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/action_reset"
+        android:icon="@mipmap/reset"
+        android:title="Reset"
+        app:showAsAction="always" />
+</menu>
